@@ -1,0 +1,68 @@
+PK     ìŠÜZb4¦i  i  
+   index.html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pesan Rahasia</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #111;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+    }
+    h1 {
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-top: 30px;
+    }
+    .box {
+      background-color: #f5f5f5;
+      border: 1px solid #ddd;
+      padding: 20px;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.3s ease;
+      border-radius: 10px;
+    }
+    .box.revealed {
+      background-color: #111;
+      color: #fff;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Puzzle Semangat ğŸ’™</h1>
+  <p>Klik satu per satu untuk buka pesannya, ya...</p>
+
+  <div class="grid">
+    <div class="box" onclick="reveal(this)">Ndak apa-apa kalau kamu lagi ndak semangat hari ini.</div>
+    <div class="box" onclick="reveal(this)">Kadang diem pun juga bagian dari proses.</div>
+    <div class="box" onclick="reveal(this)">Aku tau kamu berhenti cuma lagi istirahat karna lelah kan, bukan mundur:).</div>
+    <div class="box" onclick="reveal(this)">Kamu cewe kerne karena masih bertahan sampai detik ini. Ibu sama bapa pasti banga sama kamu aku juga banga kok hehe..</div>
+    <div class="box" onclick="reveal(this)">Semangat itu bukan harus ada tiap hari. Kalo semangatnya ilang ntar pelan-pelan balik percaya deh.</div>
+    <div class="box" onclick="reveal(this)">Eits tapi semangat kamu ndak ilang, cuma lagi ngumpet aja keknya</div>
+    <div class="box" onclick="reveal(this)">Sampai detik ini dan sejauh ini kamu melangkah semoga apa yang jadi herapan kamu terwujut ya.</div>
+    <div class="box" onclick="reveal(this)">Aku bakal jadi orang no 1 yang support kamu apapun itu asal baik, aku disini ada buat kamu :) ğŸ’™</div>
+  </div>
+
+  <script>
+    function reveal(el) {
+      el.classList.add("revealed");
+    }
+  </script>
+</body>
+</html>
+PK     ìŠÜZb4¦i  i  
+           ¤    index.htmlPK      8   ‘    
